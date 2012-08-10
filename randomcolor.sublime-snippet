@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA['#'+Math.floor(Math.random()*16777215).toString(16);]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>randomcolor</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

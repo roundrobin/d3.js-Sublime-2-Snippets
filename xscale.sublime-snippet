@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[var xscale = d3.scale.linear().domain([${1:d3.min(data)}, ${2:d3.max(data)}]).range([0,${3:width}]);
+${4}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>xscale</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

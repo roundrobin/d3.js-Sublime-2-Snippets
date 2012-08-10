@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[append("circle")
+	.attr("r",${1:50})
+	.attr("cx",${3:0})
+	.attr("cy",${4:0})
+	.attr("fill","${5:#ff00ff}");
+${6}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>circle</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

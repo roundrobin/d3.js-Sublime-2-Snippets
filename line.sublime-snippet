@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[append('line')
+.attr("stroke","black")
+.attr("stroke-width",3)
+.attr("fill","none")
+.attr("x1",0)
+.attr("x2",100)
+.attr("y1",0)
+.attr("y2",0);
+${1}
+	]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>line</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

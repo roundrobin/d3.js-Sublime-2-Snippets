@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[append('text')
+.text(function(d,i){ return ${1:"Hello World"};})
+.attr("dominant-baseline", "text-before-edge")
+.attr("fill", "${2:#000000}")
+.attr("x", ${3:0})
+.attr("y", ${4:0})
+.attr("font-size", ${5:10})
+.attr("font-family", "${6:Arial}")
+.attr("text-anchor", "${7:start}");
+${8}
+	]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>text</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

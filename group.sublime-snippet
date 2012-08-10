@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[append("g")
+	.attr("transform","translate("+[0,0]+")")
+	.attr("class","group");
+${1}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>group</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

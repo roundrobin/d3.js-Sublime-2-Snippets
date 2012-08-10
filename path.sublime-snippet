@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[append('path')
+.attr("stroke","black")
+.attr("stroke-width",3)
+.attr("fill","none")
+.attr("d","M0,0 L100,100 L200,200");
+${1}
+	]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>path</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
