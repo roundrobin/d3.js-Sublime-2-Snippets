@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[append("g")
+	<content><![CDATA[append("svg:g")
 	.attr("transform","translate("+[0,0]+")")
 	.attr("class","group");
 ${1}]]></content>

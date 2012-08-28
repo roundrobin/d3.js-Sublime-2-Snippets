@@ -1,9 +1,7 @@
 <snippet>
-	<content><![CDATA[append("rect")
+	<content><![CDATA[append("svg:rect")
 	.attr("width",${1:200})
 	.attr("height",${2:200})
-	.attr("x",${3:0})
-	.attr("y",${4:0})
 	.attr("fill","${5:#ff00ff}");
 ${6}]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

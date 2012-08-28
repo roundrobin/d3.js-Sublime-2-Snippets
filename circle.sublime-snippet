@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[append("circle")
+	<content><![CDATA[append("svg:circle")
 	.attr("r",${1:50})
 	.attr("cx",${3:0})
 	.attr("cy",${4:0})

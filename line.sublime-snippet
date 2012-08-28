@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[append('line')
+	<content><![CDATA[append('svg:line')
 .attr("stroke","black")
 .attr("stroke-width",3)
 .attr("fill","none")

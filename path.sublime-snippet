@@ -1,9 +1,10 @@
 <snippet>
-	<content><![CDATA[append('path')
+	<content><![CDATA[append('svg:path')
 .attr("stroke","black")
 .attr("stroke-width",3)
 .attr("fill","none")
-.attr("d","M0,0 L100,100 L200,200");
+.attr("d","M0,0 L100,100 L200,200")
+.attr("transform","translate("+[0,0]+")");
 ${1}
 	]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
