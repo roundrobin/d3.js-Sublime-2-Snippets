@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[append('svg:polygon')
+.attr("stroke","black")
+.attr("stroke-width",3)
+.attr("fill","none")
+.attr("p","245.888,765.772 245.888,805.772 320.837,805.772 337.824,822.761 354.812,805.772 429.761,805.772 429.761,765.772")
+.attr("transform","translate("+[0,0]+")");
+${1}
+	]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>polygon</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
