@@ -8,7 +8,7 @@ HOW TO INSTALL
 ==============
 Browse to the following path on your UNIX system. Make sure you change the YOUR_USERNAME placeholder
 with your current user.
-```
+```bash
 cd /Users/YOUR_USERNAME/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 ```
 
@@ -17,13 +17,13 @@ If the folder 'JavaScript' doesn't exisits inside of this folder, create it:
 mkdir JavaScript
 ```
 Enter this folder:
-```
+```bash
 cd JavaScript
 ```
 
 I recommend to checkout the repository directly in this folder:
 
-```
+```bash
 git clone git@github.com:roundrobin/d3.js-Sublime-2-Snippets.git .
 ```
 
