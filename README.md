@@ -38,7 +38,7 @@ After you've installed the snippets, you can trigger the insertion of a snippet 
 the follwing commands inside of a .js file and pressing the TAB key afterwards.
 
 The list of available snippets:
-
+```
 .a + TAB       ==> .attr("",)
 
 .st + TAB      ==> .style("",)
@@ -64,7 +64,7 @@ yscale + TAB   ==> var yscale = d3.scale.linear().domain(...
 randcol + TAB  ==> '#'+Math.floor(Math.random()*16777215).toString(16);
 
 join + TAB     ==> .selectAll("").data().enter().append("")...
-
+```
 
 
 
