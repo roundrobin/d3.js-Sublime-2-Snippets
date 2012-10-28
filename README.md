@@ -13,7 +13,7 @@ cd /Users/YOUR_USERNAME/Library/Application\ Support/Sublime\ Text\ 2/Packages/U
 ```
 
 If the folder 'JavaScript' doesn't exisits inside of this folder, create it:
-```
+```bash
 mkdir JavaScript
 ```
 Enter this folder:
