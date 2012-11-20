@@ -2,7 +2,7 @@
 	<content><![CDATA[append("svg:rect")
 	.attr("width",${1:200})
 	.attr("height",${2:200})
-	.attr("fill","${5:#ff00ff}");
+	.attr("fill","${5:#ddd}");
 ${6}]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>rect</tabTrigger>
