@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[append('svg:text')
 .text(function(d,i){ return ${1:"Hello World"};})
-.attr("dominant-baseline", "text-before-edge")
 .attr("fill", "${2:#000000}")
 .attr("x", ${3:0})
 .attr("y", ${4:0})
