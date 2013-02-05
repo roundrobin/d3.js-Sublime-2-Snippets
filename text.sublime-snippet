@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[append('text')
+.text("${1:Lorem Ipsum}")
+.attr({
+	fill, "${2:#000000}",
+	x : ${3:0},
+	y: ${4:0},
+	"font-size": ${5:10},
+	"font-family": "${6:Arial}",
+	"text-anchor": "${7:start}"
+});
+${8}
+	]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>text</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
