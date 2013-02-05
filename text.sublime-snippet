@@ -2,7 +2,7 @@
 	<content><![CDATA[append('text')
 .text("${1:Lorem Ipsum}")
 .attr({
-	fill, "${2:#000000}",
+	fill: "${2:#000000}",
 	x : ${3:0},
 	y: ${4:0},
 	"font-size": ${5:10},
