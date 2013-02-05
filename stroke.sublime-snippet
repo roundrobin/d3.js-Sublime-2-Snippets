@@ -1,6 +1,7 @@
 <snippet>
-	<content><![CDATA[.attr("stroke","black")
-.attr("stroke-width",3)
+	<content><![CDATA[.attr({"stroke":"black",
+		"stroke-width":3
+		})
 ${1}
 	]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

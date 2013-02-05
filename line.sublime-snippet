@@ -1,13 +1,16 @@
 <snippet>
 	<content><![CDATA[append('svg:line')
-.attr("stroke","black")
-.attr("stroke-width",3)
-.attr("fill","none")
-.attr("x1",0)
-.attr("x2",100)
-.attr("y1",0)
-.attr("y2",0);
-${1}
+	.attr(
+		{
+		 "stroke":"${1:black}",
+		 "stroke-width":${2:3},
+		 "fill":${3:"none"},
+		 "x1":${4:0},
+		 "x2":${5:100},
+		 "y1":${6:0},
+		 "y2":${7:0}
+		 });
+${8}
 	]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>line</tabTrigger>
