@@ -3,7 +3,7 @@
 .attr({
 	stroke: "${1:black}",
 	"stroke-width": ${2:3},
-	fill: "${3:"none}",
+	fill: "${3:none}",
 	d: "${4:M0,0 L100,100 L200,200}",
 	transform: "translate("+[0,0]+")"
 });

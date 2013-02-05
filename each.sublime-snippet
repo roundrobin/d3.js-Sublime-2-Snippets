@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[_.each(${1},function(elem){
+	<content><![CDATA[_.each(${1}, function(elem){
 	${2}
 });
 ${3}]]></content>

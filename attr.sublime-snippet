@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[.attr("${1:this}",${2:this})]]></content>
+	<content><![CDATA[.attr("${1:attribute}",${2:value})]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>.a</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
