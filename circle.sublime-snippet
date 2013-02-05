@@ -1,11 +1,11 @@
 <snippet>
-	<content><![CDATA[append("svg:circle")
-	.attr({
-		 "r":${1:50},
-		 "cx":${2:0},
-		 "cy":${3:0},
-		 "fill":"${4:#ff00ff}"
-	});
+	<content><![CDATA[append("circle")
+.attr({
+	r: ${1:50},
+	cx: ${2:0},
+	cy: ${3:0},
+	fill: "${4:#ff00ff}"
+});
 ${5}]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>circle</tabTrigger>

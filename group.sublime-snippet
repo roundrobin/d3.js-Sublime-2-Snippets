@@ -1,7 +1,9 @@
 <snippet>
-	<content><![CDATA[append("svg:g")
-	.attr("transform","translate("+[0,0]+")")
-	.attr("class","group");
+	<content><![CDATA[append("g")
+	.attr({
+		transform: "translate("+[0,0]+")",
+		class: "group"
+	});
 ${1}]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>group</tabTrigger>

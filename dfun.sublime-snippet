@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[function(d,i){
+	<content><![CDATA[function(d, i){
 return ${3:d};
 }]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

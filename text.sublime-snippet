@@ -1,12 +1,14 @@
 <snippet>
-	<content><![CDATA[append('svg:text')
-.text(function(d,i){ return ${1:"Hello World"};})
-.attr("fill", "${2:#000000}")
-.attr("x", ${3:0})
-.attr("y", ${4:0})
-.attr("font-size", ${5:10})
-.attr("font-family", "${6:Arial}")
-.attr("text-anchor", "${7:start}");
+	<content><![CDATA[append('text')
+.text("${1:Lorem Ipsum}")
+.attr({
+	fill, "${2:#000000}",
+	x : ${3:0},
+	y: ${4:0},
+	"font-size": ${5:10},
+	"font-family": "${6:Arial}",
+	"text-anchor": "${7:start}"
+});
 ${8}
 	]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
