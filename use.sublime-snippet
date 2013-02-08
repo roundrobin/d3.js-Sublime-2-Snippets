@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[append("use")
-.attr({'xlink:href':'#bezierCurve'})
-${4}]]></content>
+.attr({'xlink:href':'${1:#someSelector}'})
+${2}]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>use</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->

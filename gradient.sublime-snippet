@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[var gradient = defs.append('gradient')
+	.attr({
+	x1: '0%',
+	x2: '0%',
+	y1: '0%',
+	y2: '100%',	
+  spreadMethod: 'pad',
+  id: '${1:gradient1}'
+	});
+gradient.append('stop')
+.attr({'stop-color':'${2:#ff00ff}', 'stop-opacity': '1', offset:'0%'})
+
+gradient.append('stop')
+.attr({'stop-color':'${3:#ff00aa}', 'stop-opacity': '1', offset:'0%'})
+${4}
+	]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gradient</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
