@@ -7,7 +7,7 @@
 	fy: '50%',
 	r:  '50%',
   spreadMethod: 'pad',
-  id: '${1:gradient1}'
+  id: 'radial-gradient${1:1}'
 	});
 gradient.append('stop')
 .attr({'stop-color':'${2:#ff00ff}', 'stop-opacity': '1', offset:'0%'})
