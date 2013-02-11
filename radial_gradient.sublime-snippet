@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[var gradient = defs.append('radialGradient')
+	.attr({
+	cx: '50%',
+	cy: '50%',
+	fx: '50%',
+	fy: '50%',
+	r:  '50%',
+  spreadMethod: 'pad',
+  id: '${1:gradient1}'
+	});
+gradient.append('stop')
+.attr({'stop-color':'${2:#ff00ff}', 'stop-opacity': '1', offset:'0%'})
+
+gradient.append('stop')
+.attr({'stop-color':'${3:#ff00aa}', 'stop-opacity': '1', offset:'100%'})
+${4}
+	]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>radial</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
