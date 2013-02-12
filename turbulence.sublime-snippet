@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[filter.append('feTurbulence')
+.attr({
+	'result': 'turb${1:1}',
+	'id': 'turb${1:1}',
+	'seed': '27',
+	'type': '${2:fractalNoise}',
+	'numOctaves': '${3:5}',
+	'baseFrequency': '${4:0.2}'
+})
+ ${5}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>turbulence</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
