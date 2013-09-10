@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[append('polyline')
+  .attr({
+    points: "${1:20,20 40,25}"
+  }).style({
+    stroke: "${2:black}",
+   "stroke-width":${3:3},
+   fill: "${3:none}"
+});
+${4}]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>polyline</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
