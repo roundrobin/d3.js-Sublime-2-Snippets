@@ -2,7 +2,7 @@
 	<content><![CDATA[append("g")
 	.attr({
 		transform: "translate("+[0,0]+")",
-		class: "group"
+		"class": "group"
 	});
 ${1}]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
