@@ -1,7 +1,7 @@
 d3.js-Sublime-2-Snippets
 ========================
 
-My personal collection of d3.js code snippets for Sublime 2 (Time Saver!!!!)
+My personal collection of d3.js code snippets for Sublime 2 (Time Saver!!!!). To support me buy my iPad app *[Vista Point for Travel Enthusiasts (0.99$)](http://taps.io/KEBQ)*
 
 
 HOW TO INSTALL
